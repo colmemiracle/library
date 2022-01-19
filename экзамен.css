@@ -1,0 +1,150 @@
+body{
+    background-color: rgb(230, 223, 210);
+    margin: 0; 
+    padding: 0;
+}
+body>*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    background-color:rgb(233, 226, 214);
+    height: 50px;
+    padding: 10px;
+    margin: 0;
+    color:  cadetblue;
+}
+ul{
+    background-color: grey;
+    display: flex;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+    padding: 20px;
+    width: 90px;
+    border-right: groove 1px;
+    color: whitesmoke;
+    text-align: center;
+}
+li:hover{
+    background-color: darkgray;
+}
+.holderGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#holder{
+    text-align: center;
+}
+.h2V, .h2B, .h2S{
+    height: 80px;
+    border-bottom: groove;
+}
+.h2V>h2{
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    color: cadetblue;
+}
+.h2B>h2{
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    color: cadetblue;
+}
+.h2S>h2{
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    color: cadetblue;
+}
+.newVisitor{
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    color: cadetblue;
+    border-color: teal;
+    outline: teal;
+    width: 100px;
+    height: 50px;
+}
+.addVisitor{
+    background-color: cadetblue;
+    color: white;
+    height: 50px;
+    position: absolute;
+    right: 10%;
+    top: 19%;
+    font-weight: bold;
+}
+#new{
+    display: none;
+}
+.addCard{
+    background-color: cadetblue;
+    color: white;
+    height: 50px;
+    position: absolute;
+    right: 10%;
+    top: 19%;
+    font-weight: bold;
+}
+.visitorList:nth-child(2n){
+    background-color: rgb(207, 200, 200);
+    color: rgb(70, 70, 70);
+}
+.visitorList:nth-child(2n+1){
+    background-color: rgb(219, 219, 219);
+    color: rgb(70, 70, 70);
+}
+.visitorList>div{
+    border-right: lightgray groove 1px;
+}
+.CardsList>div{
+    border-right: lightgray groove 1px;
+}
+.CardsList:nth-child(2n){
+    background-color: rgb(207, 200, 200);
+    color: rgb(70, 70, 70);
+}
+.CardsList:nth-child(2n+1){
+    background-color: rgb(219, 219, 219);
+    color: rgb(70, 70, 70);
+}
+.statisticList{
+    display: flex;
+}
+.statisticList>.div1{
+    border: gray groove 1px;
+    margin: 0 auto;
+}
+.statisticList>.div2{
+    border: gray groove 1px;
+    margin: 0 auto;
+
+}
+.popularBooks{
+    border-bottom: gray groove 1px;
+}
+.popularVisitors{
+    border-bottom: gray groove 1px;
+}
+.div1>h3{
+    border-bottom: gray groove  1px;
+    color: rgb(70, 70, 70);
+    background-color: rgb(120, 160, 161);
+    margin: 0;
+    height: 40px;
+    padding-top: 8%;
+}
+.div2>h3{
+    border-bottom: gray groove  1px;
+    color: rgb(70, 70, 70);
+    background-color: rgb(120, 160, 161);
+    margin: 0;
+    height: 40px;
+    padding-top: 8%;
+}
+.div1, .div2{
+    width: 35%;
+}
